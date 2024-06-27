@@ -1,6 +1,6 @@
 # Setting up PVE on a MacBook 
 
-Starting with proxmox my goal was to test around a bit and decided to use an old unused macbook to try things. This document shows how I fixed the things which annoyed me when booting it up.
+Starting with proxmox my goal was to test around a bit and I decided to use an old unused macbook to try things. This document describes how I fixed the things which annoyed me.
 
 ### Specs
  - MacBook Pro late 2014
