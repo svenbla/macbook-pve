@@ -29,7 +29,7 @@ polling_interval = 1    # default is 1 seconds
 ## Handling Lid Closing
 The second problem I had was the behaviour when closing the lid.
 
-1. ### keep alive
+### keep alive
 by default the proxmox will shut down when being closed, to prevent this behaviour we can edit the `/etc/systemd/logind.conf`
 
 1. uncomment `HandleLidSwitch` by removing the `#` in front of it
@@ -65,7 +65,7 @@ by default the proxmox will shut down when being closed, to prevent this behavio
     button/lid LID open
     ```
 
-2. #### handle the event
+3. #### handle the event
     You need to create two files in `/etc/acpi/events/` to handle both the lid close and lid open events.
     1. Create Event Handler Files
         -   Creating the Lid Close Event Handler:
