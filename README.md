@@ -25,6 +25,10 @@ max_temp = 65                   # if temperature is above this, fans will run at
 polling_interval = 1    # default is 1 seconds
 ```
 
+> [!TIP]
+> the temps can be observed with the following command
+> `watch -n 1 sensors`
+
 
 ## Handling Lid Closing
 The second problem I had was the behaviour when closing the lid.
