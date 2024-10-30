@@ -26,8 +26,7 @@ polling_interval = 1    # default is 1 seconds
 ```
 
 > [!TIP]
-> the temps can be observed with the following command
-> `watch -n 1 sensors`
+> the temps can be observed with `watch -n 1 sensors`
 
 
 ## Handling Lid Closing
