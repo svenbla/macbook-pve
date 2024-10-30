@@ -3,7 +3,7 @@
 Starting with proxmox my goal was to test around a bit and I decided to use an old unused macbook to try things. This document describes how I fixed the things which annoyed me.
 
 ### Specs
- - MacBook Pro late 2014
+ - MacBook Pro late 2013
  - **CPU:** 2 Cores 4 Threads Intel(R) Core(TM) i7-4558U CPU @ 2.80GHz
  - **RAM:** 16GB
  - **Disk:** 512GB
