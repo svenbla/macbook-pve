@@ -25,6 +25,8 @@ max_temp = 65                   # if temperature is above this, fans will run at
 polling_interval = 1    # default is 1 seconds
 ```
 
+`service mbpfan stop` & `service mbpfan start` to restart mbpfan
+
 > [!TIP]
 > the temps can be observed with `watch -n 1 sensors`
 
